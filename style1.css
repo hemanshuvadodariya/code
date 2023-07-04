@@ -1,0 +1,118 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: black;
+}
+a{
+    text-decoration: none;
+}
+header{
+    padding: 0 7%;;
+}
+.main{   
+    display: flex;
+    justify-content: space-between;
+}
+.main .mail h4{
+    font-size: 20px;
+}
+.main .mail a h4 img{
+    color: rgb(13, 49, 81);
+}
+.main .mail a{
+    color:white;
+    transition: 0.4s;
+}
+.main .mail a:hover{
+    color:  rgb(157, 96, 64);
+    background-color: black;
+    }
+.main .manu{
+    margin-top: 20px;
+}
+.main .manu ul li{
+    display: inline;
+    margin-left: 30px;
+    color: white;
+    transition: 0.4s;
+}
+.main .manu ul li:hover{
+    color: rgb(157, 96, 64);
+}
+img{
+    height: 20px;
+    width: 20px;
+    color: aliceblue;
+}
+.x{
+    padding: 0 7%;
+    text-align: center;
+}
+.content{
+    margin: 50px 0px;
+}
+.content  img{
+    height: 150px;
+    width: 250px;
+}
+.content h3 {
+    color: rgb(252, 250, 250);
+}
+.content h3 .box-icon{
+    color: rgb(249, 250, 251);
+}
+.content h1{
+    color: aliceblue;
+    text-shadow:1px 1px gray;
+    font-size: 40px;
+}
+.content button{
+    height: 50px;
+    width: 150px;
+    opacity: 0.4;
+    background-color: rgb(201, 182, 182);
+    border-radius: 20px;
+    font-size: 20px;
+    transition: 0.4s;
+}
+.content button:hover{
+color: aliceblue;
+background-color: black;
+}
+.manubar{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    color: black;
+    margin-bottom: 50px;
+    background-color: gray;
+}
+.manubar .listitem ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 30px 70px ;
+    font-size: 25px;
+    transition: 0.4s;
+}
+.manubar .listitem ul li:hover{
+    color: rgb(157, 96, 64);
+
+}
+.y h1{
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 100px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    padding:0  110px;   
+}
+.box .ux{
+    border: 1px solid black;
+    padding-left: 10px;
+    padding-top: 100px;
+    font-size: 20px;
+    box-shadow: 2px 2px 2px 5px rgb(64, 64, 92);
+    color: aliceblue;
+
+}
